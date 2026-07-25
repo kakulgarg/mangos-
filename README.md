@@ -149,3 +149,32 @@ We'd rather state these plainly than let them hide.
 
 ---
 
+## 🔧 Mistakes We Made (and how we fixed them)
+
+Real data work is a chain of caught errors. Here are the ones that mattered — each would have silently corrupted the results if missed.
+
+| # | The mistake | Why it was dangerous | How we fixed it |
+|---|---|---|---|
+| *1* | 🎭 *Trusted a finding from practice data* | A dramatic "more supply → lower price" pattern looked exciting — and was *false* on real data. | Re-ran everything on the real dataset, watched the pattern vanish, and *reported the truth* instead of the exciting story. |
+| *2* | 🏷️ *Lost every price's market identity* | Agmarknet writes the market name as a heading, not a column — so on load, 32,000 prices belonged to nobody. | Detected the heading rows and *forward-filled* the market name down into every row beneath, so each price knew its market. |
+| *3* | ⚖️ *Mixed tonnes and quintals* | Arrivals were in tonnes, prices per quintal (1 tonne = 10 quintals) — every volume comparison was silently *10× wrong. | Converted everything to a **single consistent unit* before any analysis. |
+| *4* | 👯 *Double-counted a whole month* | One month's file was downloaded twice → ~1,100 exact-copy rows, over-weighting that month in every average. | Detected and *dropped exact duplicate rows*. |
+| *5* | ✍️ *Treated one market as two* | The same market spelled two ways ("Pune APMC" vs "Pune APMC ") split one market's data in half. | *Standardized market names* so each mandi was counted once. |
+| *6* | 🎢 *Almost deleted the most important data* | The tempting move is to strip out extreme price spikes as "outliers" — but for onions, those spikes are the *real, important events. | **Kept the spikes*, flagged them, and treated them as signal rather than noise. |
+
+> The thread through all of these: *we'd rather be *right than look impressive.** Every fix is documented, so any number in this project can be traced back to a principled decision — not luck.
+
+---
+
+## 💬 The 30-Second Summary
+
+> I took two years of real government onion-price data — 32,000 records from 111 markets — cleaned it up, and built a tool that tells farmers the best time to sell (September–November, worth ₹1,500 a quintal), the best market, the best variety, and a forecast of next month's price. The interesting twist is the **honesty: one of my big findings turned out to be false on real data, and my fancy prediction model barely beat a simple guess — and I reported both instead of hiding them, because that's what real analysis looks like.
+
+---
+
+<div align="center">
+
+Built for the IIT Mandi CCE AI & Data Science capstone.
+Data: Agmarknet (Government of India). Everything reproducible from the raw files with one command.
+
+</div>
