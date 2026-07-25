@@ -137,3 +137,15 @@ This is the part I'm most proud of — and it's unusual for a student project.
 
 ---
 
+## ⚠️ Limitations *(what this model honestly cannot do)*
+
+We'd rather state these plainly than let them hide.
+
+- **🌪️ It can't predict crashes or spikes.** The biggest onion price moves come from **weather, government export bans, and policy announcements** — none of which are in this dataset. The model describes a *normal* year, and will always under-predict a crazy one.
+- **📉 The forecaster only ties a dumb baseline.** The simple rule *"next month ≈ this month"* is extremely hard to beat for a series this volatile. Our LightGBM model essentially **matched** it rather than clearly beating it — so we made it useful a different way: an honest uncertainty *range* the simple rule can't give.
+- **🗓️ Only two years of data.** Two seasonal cycles is the *minimum* to claim a pattern is seasonal. We can say "prices peaked Sept–Nov in both years" — we **cannot** claim a decade-long guarantee.
+- **🕳️ A whole month is missing.** All of **August 2024** is absent from the government source. We left it as an honest gap rather than inventing values.
+- **🏘️ Local supply barely predicts local price.** A single market's daily arrivals don't move *that market's* price much, because onion prices are set at the **state level**, not by one mandi's trucks. Supply matters — but at the aggregate/seasonal scale, not the single-market-single-day scale.
+
+---
+
