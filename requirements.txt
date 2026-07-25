@@ -1,0 +1,12 @@
+# Core pipeline. Versions pinned to a known-good, reproducible set.
+pandas==2.2.3
+numpy==1.26.4
+scipy==1.15.3
+statsmodels==0.14.6
+scikit-learn==1.7.2
+lightgbm==4.7.0
+matplotlib==3.9.2
+reportlab==4.2.5
+
+# Testing
+pytest==9.1.1
