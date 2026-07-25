@@ -1,0 +1,166 @@
+{
+  "blocked_cv": {
+    "folds": [
+      {
+        "cut": "2025-10-09",
+        "test_months": [
+          1,
+          10,
+          11,
+          12
+        ],
+        "n": 960,
+        "mean_price": 1267.7916666666667,
+        "mae": 1861.7192917736893,
+        "mape": 167.7373276307076,
+        "bias": -1861.7192917736893
+      },
+      {
+        "cut": "2026-01-05",
+        "test_months": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "n": 978,
+        "mean_price": 1086.2914110429447,
+        "mae": 789.6510294775213,
+        "mape": 75.91940794169022,
+        "bias": -782.7331554435959
+      },
+      {
+        "cut": "2026-04-03",
+        "test_months": [
+          4,
+          5,
+          6
+        ],
+        "n": 1027,
+        "mean_price": 1112.201557935735,
+        "mae": 294.481065378272,
+        "mape": 28.39437222007329,
+        "bias": -204.26511678659696
+      }
+    ],
+    "mae_mean": 981.9504622098275,
+    "mae_min": 294.481065378272,
+    "mae_max": 1861.7192917736893,
+    "mape_mean": 90.68370259749037,
+    "mape_min": 28.39437222007329,
+    "mape_max": 167.7373276307076
+  },
+  "failure": {
+    "by_month": {
+      "n": {
+        "Feb": 234,
+        "Mar": 325,
+        "Apr": 349,
+        "May": 351,
+        "Jun": 360
+      },
+      "mean_price": {
+        "Feb": 1077.7,
+        "Mar": 965.4,
+        "Apr": 904.2,
+        "May": 948.7,
+        "Jun": 1459.5
+      },
+      "mae": {
+        "Feb": 842.7,
+        "Mar": 627.2,
+        "Apr": 313.0,
+        "May": 212.9,
+        "Jun": 372.2
+      },
+      "bias": {
+        "Feb": -842.7,
+        "Mar": -627.2,
+        "Apr": -238.4,
+        "May": -86.2,
+        "Jun": -298.6
+      }
+    },
+    "by_mandi": {
+      "n": {
+        "Lasalgaon(Niphad) APMC": 108,
+        "Pimpalgaon Baswant APMC": 115,
+        "Lasalgaon APMC": 105,
+        "Lasalgaon(Vinchur) APMC": 108,
+        "Nasik APMC": 108,
+        "Pune APMC": 107,
+        "Pune(Pimpri) APMC": 140,
+        "Mangal Wedha APMC": 112,
+        "Bhusaval APMC": 116,
+        "Satara APMC": 117,
+        "Pune(Manjri) APMC": 136,
+        "Kolhapur APMC": 115,
+        "Pune(Moshi) APMC": 115,
+        "Chattrapati Sambhajinagar APMC": 117
+      },
+      "mae": {
+        "Lasalgaon(Niphad) APMC": 671.8,
+        "Pimpalgaon Baswant APMC": 582.6,
+        "Lasalgaon APMC": 539.6,
+        "Lasalgaon(Vinchur) APMC": 526.8,
+        "Nasik APMC": 471.1,
+        "Pune APMC": 467.4,
+        "Pune(Pimpri) APMC": 436.2,
+        "Mangal Wedha APMC": 434.8,
+        "Bhusaval APMC": 425.5,
+        "Satara APMC": 421.5,
+        "Pune(Manjri) APMC": 405.9,
+        "Kolhapur APMC": 315.7,
+        "Pune(Moshi) APMC": 311.8,
+        "Chattrapati Sambhajinagar APMC": 249.9
+      },
+      "bias": {
+        "Lasalgaon(Niphad) APMC": -661.8,
+        "Pimpalgaon Baswant APMC": -193.8,
+        "Lasalgaon APMC": -519.5,
+        "Lasalgaon(Vinchur) APMC": -502.7,
+        "Nasik APMC": -451.9,
+        "Pune APMC": -465.8,
+        "Pune(Pimpri) APMC": -434.2,
+        "Mangal Wedha APMC": -384.3,
+        "Bhusaval APMC": -420.7,
+        "Satara APMC": -416.9,
+        "Pune(Manjri) APMC": -375.4,
+        "Kolhapur APMC": -167.1,
+        "Pune(Moshi) APMC": -269.4,
+        "Chattrapati Sambhajinagar APMC": -154.5
+      }
+    },
+    "bias_top5pct": 2047.8300311154937,
+    "bias_bottom50pct": -603.5456063407956,
+    "test_months": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "formula": "modal_price ~ arrivals_dev + C(m) + C(mandi_id)",
+  "split_date": "2026-02-08",
+  "train": {
+    "n": 6495,
+    "mae": 718.0588086688506,
+    "rmse": 914.130309176204,
+    "mape": 44.663262626253385,
+    "r2": 0.24462101855869678
+  },
+  "test": {
+    "n": 1619,
+    "mae": 444.1160591178761,
+    "rmse": 536.7033910521933,
+    "mape": 44.455812110400075,
+    "r2": -1.8386107095748123
+  },
+  "overfit_gap_pct": -38.15046152818794,
+  "vif_arrivals_dev": 3.0415320950879776,
+  "vif_max": 3.0415320950879776,
+  "arrivals_dev_coef": -0.03565948895555259,
+  "arrivals_dev_p": 5.009665252533242e-12,
+  "baseline": "Bhusaval APMC"
+}

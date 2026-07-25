@@ -1,0 +1,50 @@
+{
+  "C1_duplicates": {
+    "duplicate_rows": 0,
+    "conflicting": 0,
+    "rule": "drop_exact_duplicates",
+    "rows_before": 31930,
+    "rows_after": 31930
+  },
+  "C2_impossible": {
+    "price_out_of_range": 0,
+    "arrivals_out_of_range": 0,
+    "min_gt_max": 0,
+    "modal_outside_min_max": 0,
+    "null_price_or_date": 0,
+    "rows_removed": 0
+  },
+  "C3_units": {
+    "state_median_price": 1400.0,
+    "mandi_ratio_min": 0.43,
+    "mandi_ratio_max": 3.86,
+    "suspected_unit_mismatch": 0,
+    "verdict": "no unit mismatch"
+  },
+  "C4_gaps": {
+    "rule": "leave (no interpolation)",
+    "grid_coverage_pct": 76.3,
+    "longest_gap_days": 34,
+    "mean_gap_days": 1.31,
+    "cv_missing_weekday": 0.233,
+    "cv_missing_month": 0.54,
+    "missingness_verdict": "NON-random; monthly means may be biased -- weight by n_obs"
+  },
+  "C5_outliers": {
+    "action": "retained (not winsorised)",
+    "beyond_3sd": 281,
+    "pct_of_rows": 0.88,
+    "p99_price": 5000.0,
+    "max_price": 25000.0,
+    "rationale": "price spikes are the signal, not noise"
+  },
+  "SUMMARY": {
+    "rows_in": 31930,
+    "variety_rows": 31930,
+    "mandi_day_rows": 31930,
+    "mandis": 111,
+    "curated": 14,
+    "date_min": "2024-06-01",
+    "date_max": "2026-06-30"
+  }
+}
