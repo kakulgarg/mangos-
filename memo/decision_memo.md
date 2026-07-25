@@ -1,7 +1,7 @@
 # Decision Memo — Onion Selling Windows, Maharashtra
 
 **To:** Advisory Team, DeHaat
-**From:** Ritik
+**From:** Kakul Garg
 **Date:** 25 July 2026
 **Re:** When, where, and which onion farmers should sell this season
 
