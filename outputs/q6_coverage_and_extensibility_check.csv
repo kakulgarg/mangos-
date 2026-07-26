@@ -1,0 +1,15 @@
+commodity,mandi_name,reporting_days,pct_coverage,longest_gap_days,first_report,last_report,null_prices,null_arrivals,usability
+Onion,Pune(Pimpri) APMC,688,90.5,32,2024-06-01,2026-06-30,0,0,OK
+Onion,Pune(Manjri) APMC,674,88.7,32,2024-06-01,2026-06-30,0,0,OK
+Onion,Pune(Moshi) APMC,593,78.0,33,2024-06-01,2026-06-30,0,0,OK
+Onion,Bhusaval APMC,582,76.6,32,2024-06-01,2026-06-30,0,0,OK
+Onion,Chattrapati Sambhajinagar APMC,573,75.4,32,2024-06-01,2026-06-30,0,0,OK
+Onion,Kolhapur APMC,573,75.4,33,2024-06-01,2026-06-30,0,0,OK
+Onion,Pune APMC,571,75.1,32,2024-06-02,2026-06-30,0,0,OK
+Onion,Pimpalgaon Baswant APMC,567,74.6,34,2024-06-01,2026-06-30,0,0,OK
+Onion,Satara APMC,566,74.5,32,2024-06-01,2026-06-30,0,0,OK
+Onion,Lasalgaon(Niphad) APMC,560,73.7,33,2024-06-01,2026-06-30,0,0,OK
+Onion,Lasalgaon(Vinchur) APMC,552,72.6,34,2024-06-01,2026-06-30,0,0,OK
+Onion,Nasik APMC,549,72.2,33,2024-06-01,2026-06-30,0,0,OK
+Onion,Mangal Wedha APMC,545,71.7,33,2024-06-01,2026-06-29,0,0,OK
+Onion,Lasalgaon APMC,521,68.6,34,2024-06-01,2026-06-30,0,0,OK

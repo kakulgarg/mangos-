@@ -1,0 +1,15 @@
+mandi_name,district,reporting_days,avg_modal_price,min_modal_price,max_modal_price,total_arrivals,avg_daily_arrivals,pct_vs_state_avg
+Lasalgaon(Niphad) APMC,,560,2029.0,761.0,5800.0,2320920.0,4145.0,15.9
+Pimpalgaon Baswant APMC,,567,1999.0,800.0,6001.0,10061608.0,17745.0,14.2
+Lasalgaon APMC,,521,1993.0,700.0,5851.0,7327146.0,14064.0,13.9
+Lasalgaon(Vinchur) APMC,,552,1963.0,600.0,5725.0,5290453.0,9584.0,12.2
+Pune(Pimpri) APMC,,688,1928.0,500.0,6400.0,8895.0,13.0,10.2
+Satara APMC,,566,1847.0,850.0,5000.0,147102.0,260.0,5.6
+Nasik APMC,,549,1768.0,600.0,5900.0,1509230.0,2749.0,1.0
+Pune(Manjri) APMC,,674,1745.0,600.0,5500.0,48773.0,72.0,-0.3
+Pune APMC,,571,1745.0,700.0,11000.0,6488420.0,11363.0,-0.3
+Mangal Wedha APMC,,545,1723.0,400.0,5200.0,64746.0,119.0,-1.5
+Bhusaval APMC,,582,1582.0,800.0,4200.0,25798.0,44.0,-9.6
+Kolhapur APMC,,573,1528.0,800.0,3500.0,2686445.0,4688.0,-12.7
+Pune(Moshi) APMC,,593,1394.0,500.0,4900.0,432988.0,730.0,-20.3
+Chattrapati Sambhajinagar APMC,,573,1273.0,300.0,3800.0,1591893.0,2778.0,-27.3

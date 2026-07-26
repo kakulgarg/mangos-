@@ -1,0 +1,38 @@
+variety_group,month_num,avg_modal_price,median_modal_price,observations,month_name,pct_vs_month_avg,variety_rank_in_month,evidence
+Local,1,1761.5,1550.0,261,Jan,1.9,2,Adequate
+Local,2,1606.2,1400.0,230,Feb,-0.8,3,Adequate
+Local,3,1345.5,1250.0,265,Mar,4.4,1,Adequate
+Local,4,1010.5,1000.0,265,Apr,2.3,2,Adequate
+Local,5,938.7,900.0,260,May,-10.1,4,Adequate
+Local,6,1558.9,1400.0,393,Jun,-12.4,4,Adequate
+Local,7,1895.6,1925.0,252,Jul,-11.0,2,Adequate
+Local,8,1203.7,1200.0,120,Aug,-1.1,2,Adequate
+Local,9,2439.7,2300.0,257,Sep,-14.0,2,Adequate
+Local,10,2105.2,2000.0,250,Oct,-20.3,3,Adequate
+Local,11,2323.8,1425.0,250,Nov,-13.8,3,Adequate
+Local,12,2225.1,1825.0,266,Dec,0.7,2,Adequate
+Other,1,1641.5,1500.0,250,Jan,-5.1,3,Adequate
+Other,2,1610.1,1500.0,227,Feb,-0.5,2,Adequate
+Other,3,1250.9,1200.0,281,Mar,-2.9,3,Adequate
+Other,4,1020.1,1000.0,397,Apr,3.3,1,Adequate
+Other,5,1007.7,1000.0,301,May,-3.5,3,Adequate
+Other,6,1737.9,1550.0,480,Jun,-2.3,2,Adequate
+Other,7,1892.3,1500.0,420,Jul,-11.2,3,Adequate
+Other,8,1230.7,1300.0,194,Aug,1.1,1,Adequate
+Other,9,2394.0,1500.0,406,Sep,-15.6,3,Adequate
+Other,10,2408.4,2100.0,351,Oct,-8.8,2,Adequate
+Other,11,2450.5,1550.0,339,Nov,-9.1,2,Adequate
+Other,12,1884.5,1750.0,323,Dec,-14.7,3,Adequate
+Red,1,1785.3,1780.0,195,Jan,3.2,1,Adequate
+Red,2,1640.3,1200.0,155,Feb,1.3,1,Adequate
+Red,3,1268.9,973.0,116,Mar,-1.5,2,Adequate
+Red,4,931.6,900.0,35,Apr,-5.6,3,Adequate
+Red,5,1183.3,1200.0,6,May,13.3,1,Thin (<30 obs)
+Red,6,2211.5,2400.0,26,Jun,24.3,1,Thin (<30 obs)
+Red,7,2603.8,2500.0,26,Jul,22.2,1,Thin (<30 obs)
+Red,9,3676.5,3500.0,17,Sep,29.6,1,Thin (<30 obs)
+Red,10,3411.2,3500.0,32,Oct,29.1,1,Adequate
+Red,11,3313.7,3500.0,55,Nov,22.9,1,Adequate
+Red,12,2520.0,2350.0,131,Dec,14.0,1,Adequate
+Unhali,5,1048.0,1100.0,131,May,0.3,2,Adequate
+Unhali,6,1608.3,1560.0,151,Jun,-9.6,3,Adequate

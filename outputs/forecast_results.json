@@ -1,0 +1,94 @@
+{
+  "grain": "monthly x mandi",
+  "models": {
+    "persistence": {
+      "n": 196,
+      "mae": 169.23517413992232,
+      "rmse": 226.79572875765697,
+      "mape": 14.132170818357931,
+      "bias": 24.518455359022056
+    },
+    "seasonal_naive": {
+      "n": 196,
+      "mae": 1044.4049604817094,
+      "rmse": 1423.129865881339,
+      "mape": 91.67533558699765,
+      "bias": -1011.9125030462505
+    },
+    "lightgbm": {
+      "n": 196,
+      "mae": 198.88302674267788,
+      "rmse": 253.32013499964052,
+      "mape": 16.79266624741954,
+      "bias": 34.640000400095104
+    },
+    "ensemble": {
+      "n": 196,
+      "mae": 167.81728483736512,
+      "rmse": 221.37635313703234,
+      "mape": 13.916555590408535,
+      "bias": 28.56707337545127
+    },
+    "_best": "ensemble",
+    "_ensemble_lift_vs_persistence_pct": 0.8378218711110845
+  },
+  "target_month": "Jul 2026",
+  "best_market_next_month": {
+    "mandi": "Pimpalgaon Baswant APMC",
+    "price": 1788.0,
+    "low": 1555.0,
+    "high": 1884.0
+  },
+  "feature_importance": [
+    {
+      "feature": "lag3",
+      "gain_pct": 15.415,
+      "perm_mae_increase": 100.285
+    },
+    {
+      "feature": "mom_change",
+      "gain_pct": 13.451,
+      "perm_mae_increase": 41.603
+    },
+    {
+      "feature": "lag1",
+      "gain_pct": 12.82,
+      "perm_mae_increase": 75.519
+    },
+    {
+      "feature": "month_cos",
+      "gain_pct": 12.105,
+      "perm_mae_increase": 48.382
+    },
+    {
+      "feature": "month_sin",
+      "gain_pct": 9.955,
+      "perm_mae_increase": 52.588
+    },
+    {
+      "feature": "arr_lag1",
+      "gain_pct": 9.614,
+      "perm_mae_increase": 13.074
+    },
+    {
+      "feature": "roll3",
+      "gain_pct": 7.699,
+      "perm_mae_increase": 15.54
+    },
+    {
+      "feature": "lag2",
+      "gain_pct": 7.003,
+      "perm_mae_increase": 28.193
+    },
+    {
+      "feature": "lag12",
+      "gain_pct": 6.016,
+      "perm_mae_increase": 6.666
+    },
+    {
+      "feature": "mandi_code",
+      "gain_pct": 5.922,
+      "perm_mae_increase": 11.643
+    }
+  ]
+}

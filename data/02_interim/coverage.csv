@@ -1,0 +1,112 @@
+mandi_id,mandi_name,reporting_days,pct_coverage
+M083,Pune(Pimpri) APMC,688,90.5
+M081,Pune(Manjri) APMC,674,88.7
+M082,Pune(Moshi) APMC,593,78.0
+M013,Bhusaval APMC,582,76.6
+M046,Kolhapur APMC,573,75.4
+M016,Chattrapati Sambhajinagar APMC,573,75.4
+M084,Pune APMC,571,75.1
+M006,Amrawati(Frui & Veg. Market) APMC,567,74.6
+M079,Pimpalgaon Baswant APMC,567,74.6
+M094,Satara APMC,566,74.5
+M049,Lasalgaon(Niphad) APMC,560,73.7
+M050,Lasalgaon(Vinchur) APMC,552,72.6
+M066,Nasik APMC,549,72.2
+M080,Pune(Khadiki) APMC,546,71.8
+M058,Mangal Wedha APMC,545,71.7
+M092,"Sangli(Phale, Bhajipala Market) APMC",543,71.4
+M060,Manmad APMC,541,71.2
+M100,Shri.Siddheshwar APMC,540,71.1
+M078,Pimpalgaon Baswant(Saykheda) APMC,538,70.8
+M061,Mumbai-Onion & Potato Market APMC,531,69.9
+M004,Akola APMC,525,69.1
+M051,Lasalgaon APMC,521,68.6
+M047,Kopargaon APMC,514,67.6
+M044,Khed(Chakan) APMC,509,67.0
+M001,Agriculture Produce Market Committee Chandwad,509,67.0
+M018,Dharashiv APMC,486,63.9
+M025,Hingna - APMC,484,63.7
+M091,Sangamner APMC,482,63.4
+M041,Karad APMC,473,62.2
+M039,Kalyan APMC,468,61.6
+M040,Kamthi APMC,454,59.7
+M062,Nagpur APMC,453,59.6
+M052,Lasur Station APMC,451,59.3
+M029,Jalgaon APMC,445,58.6
+M033,Junnar(Narayangaon) APMC,439,57.8
+M111,Yeola APMC,435,57.2
+M015,Chandrapur(Ganjwad) APMC,434,57.1
+M038,Kalvan APMC,419,55.1
+M019,Dhule APMC,418,55.0
+M104,Sinner APMC,413,54.3
+M017,Devala APMC,412,54.2
+M109,Vaijpur APMC,411,54.1
+M053,"Laxmi-Sopan Agriculture Produce Marketing Co Ltd, Barshi, Dist Solapur",356,46.8
+M063,Nampur APMC,354,46.6
+M093,Satana APMC,341,44.9
+M106,Vadgaonpeth APMC,336,44.2
+M088,Ramtek APMC,332,43.7
+M020,Dindori(Vani) APMC,322,42.4
+M043,Karjat APMC,321,42.2
+M064,Nandgaon APMC,314,41.3
+M086,Rahuri(Vambori) APMC,289,38.0
+M098,"Shivsiddha Govind Producer Company Ltd Sanchalit Khajgi Krush Utpann Bajar, Samati-Nashik",278,36.6
+M108,Vai APMC,276,36.3
+M074,Parner APMC,264,34.7
+M023,Gangapur APMC,260,34.2
+M068,Newasa(Ghodegaon) APMC,259,34.1
+M090,Sakri APMC,258,33.9
+M105,Umrane APMC,249,32.8
+M070,"Omchatinya Multi State Agro Purpose Co-Op Society, Dist Ahilyanagar",247,32.5
+M095,Shevgaon APMC,237,31.2
+M032,Junnar(Alephata) APMC,233,30.7
+M087,Rahuri APMC,227,29.9
+M085,Rahata APMC,223,29.3
+M057,Manchar APMC,222,29.2
+M003,Akluj APMC,215,28.3
+M073,Paranda APMC,209,27.5
+M002,Ahilyanagar APMC,205,27.0
+M075,Pathardi APMC,201,26.4
+M030,Jamkhed APMC,193,25.4
+M103,Shrirampur APMC,183,24.1
+M021,Dindori APMC,182,23.9
+M005,Akole APMC,179,23.6
+M034,Junnar(Otur) APMC,175,23.0
+M071,Paithan APMC,162,21.3
+M048,Kurdwadi(Modnimb) APMC,157,20.7
+M107,Vaduj APMC,152,20.0
+M054,Lonand APMC,144,18.9
+M110,Vita APMC,141,18.6
+M056,Malkapur APMC,138,18.2
+M096,Shirpur APMC,135,17.8
+M035,Junnar APMC,122,16.1
+M027,Islampur APMC,120,15.8
+M099,"Shree Sairaj Krushi Market, Dist Ahilyanagar",120,15.8
+M055,"Malharshree Khajgi Krushi Utpann Bajar, Chandanpuri Tal Malegaon, Nashik",118,15.5
+M102,"Shri Rameshwar Krushi Market, M.Nagar, Tal Deola, Dist Nashik",107,14.1
+M009,APMC Yawal,102,13.4
+M101,Shrigonda APMC,97,12.8
+M011,Baramati APMC,97,12.8
+M059,"Mankameshwr Fpc Sanchalit Mankameshwar Khajagi Krushi Utpanna Bajar Ltd, Nifad Nashik",83,10.9
+M026,Indapur APMC,70,9.2
+M037,Kada APMC,61,8.0
+M077,Phaltan APMC,57,7.5
+M097,Shirur APMC,55,7.2
+M028,Jalana APMC,53,7.0
+M067,Navapur APMC,40,5.3
+M024,Gevrai APMC,23,3.0
+M012,Barshi APMC,16,2.1
+M069,Newasa APMC,16,2.1
+M022,Fulmbri APMC,11,1.4
+M072,Pandharpur APMC,11,1.4
+M076,Pen APMC,6,0.8
+M008,APMC Nandurbar,6,0.8
+M007,APMC Chandrapur,4,0.5
+M010,Ausa APMC,2,0.3
+M045,Khed APMC,2,0.3
+M065,Nandura APMC,2,0.3
+M089,Ratnagiri (Nachane) APMC,2,0.3
+M042,Karjat(Rashin) APMC,1,0.1
+M036,Kada(Ashti) APMC,1,0.1
+M031,"Janata Agri Market (Dls Agro Infrastructure Pvt Ltd), Dist Dhule",1,0.1
+M014,Chalisgaon APMC,1,0.1
