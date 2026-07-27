@@ -24,11 +24,11 @@
 
 ### 🔗 Quick links — open the deliverables
 
-**🌐 [Open the Web Dashboard (live)](https://htmlpreview.github.io/?https://github.com/USER/REPO/blob/main/dashboard/mandi_dashboard.html)**  ·  **📊 [Power BI Dashboard (.pbix)](dashboard/DeHaat_Mandi_Price_Watch.pbix)**  ·  **🎥 [Walkthrough Video](PASTE_YOUR_VIDEO_LINK_HERE)**
+**🌐 [Open the Web Dashboard (live)](https://htmlpreview.github.io/?https://github.com/kakulgarg/mangos-/blob/main/dashboard/mandi_dashboard.html)**  ·  **📊 [Power BI Dashboard (.pbix)](dashboard/MANGOS-dashboard.pbix)**  ·  **🎥 [Walkthrough Video](PASTE_YOUR_VIDEO_LINK_HERE)**
 
 **📑 [Slide Deck](presentation/DeHaat_Mandi_Price_Watch_Team_Mangos.pptx)**  ·  **📝 [Decision Memo (PDF)](memo/decision_memo.pdf)**  ·  **📖 [Full Documentation](DOCUMENTATION.md)**
 
-<sub>ℹ️ Before pushing, replace **USER/REPO** in the dashboard link with your GitHub username/repo (e.g. `kakulgarg/DeHaat-Mandi-Price-Watch`), paste your **video link**, and save your Power BI file as **`dashboard/DeHaat_Mandi_Price_Watch.pbix`**.</sub>
+<sub>ℹ️ Paste your recorded **video link** over `PASTE_YOUR_VIDEO_LINK_HERE` before final submission.</sub>
 
 </div>
 
